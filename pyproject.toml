@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+
+[project]
+name = "python-bootstrap-project"
+version = "0.1.0"
+description = "A simple boilerplate to python projects"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+python-bootstrap = "main:main"
